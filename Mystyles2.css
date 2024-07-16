@@ -1,0 +1,45 @@
+h1{
+    background-color: crimson;
+    color: gold;
+}
+h4{
+    background-color: antiquewhite;
+    color: rgb(0, 60, 255);
+    padding: 15px;
+}
+body{
+    background-color: rgb(255, 187, 0);
+}
+form{
+    background-color: rgb(42, 228, 135);
+    font-size: large;
+    padding: 5000px;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: #0addecda;
+    color: #fff;
+    text-align:center;
+    margin-top: 40;
+    padding: 5px 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    text-decoration: underline;
+
+}

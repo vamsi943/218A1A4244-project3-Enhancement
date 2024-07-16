@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" href="Mystyles1.css">
+        <h1>Your are in the Registration Page</h1>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href=./Home.html>Home</a></li>
+                <li><a href=".\About.html">About</a></li>
+                <li><a href=".\ContactUs.html">ContactUs</a></li>
+                <li><a href=".\Registration.html">Registration</a></li>
+                <li><a href=".\Login.html">Login</a></li>
+            </ul>
+            <p>
+                <style>
+                    body {
+                      background-image: url('Registration.jpg') ;
+                    }
+                </style>
+            </p>
+        </nav>
+        <h4><center>Fill the Registration Form</center></h4>
+        <form action="Login.html" >
+            <h3>Registration Form:</h3>
+            <form><center>
+                Name:
+                <input type="text",name="Name" Size="45" placeholder="Enter Your name" autofocus/><br>
+                Village Name:
+                <input type="text",name="Village Name" Size="45" placeholder="Enter Your Village Name"/><br>
+                Age:
+                <input type="text",name="Age" Size="45" placeholder="Enter Your Age"/><br>
+                Select Bike:
+               <input list="Bikes" name="Select Bikes">
+               <datalist id="Bikes">
+                <option value="Royal Enfield"></option>
+                <option value="Harley Harley-Davidson"></option>
+                <option value="Yamaha"></option>
+                <option value="TVS Excel"></option>
+                <option value="splendor"></option>
+                </datalist>
+               <br>
+               Gender: 
+               <input type="radio" name="Gender" value="M">Male
+               <input type="radio" name="Gender" value="F">Female
+               <input type="radio" name="Gender" value="O">Other<br>
+               Preferenced Vehicle:
+               <input type="checkbox" name="Bike">Bike
+               <input type="checkbox" name="scooty">scooty
+               <br>
+               <input type="Submit">
+            </form></center>
+        </form>
+        <footer><p>&copy;2024 vamsi Web Project.All rights reserved</p>
+        </footer>
+    </body>
+</html>
